@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+
+.top{
+    background-color: #646c79;
+}
+/* ---------------navbar---------------------- */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.logo{
+    width: 95px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.0rem;
+    list-style-type: none;
+    width: 40vw;
+    color: #d8dadd;
+    margin-left: 15rem;
+}
+.list-item{
+    margin-left: 1.8rem;
+}
+.button-small{
+    background: transparent;
+    padding: 10px 15px;
+    color: #d8dadd;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: none;
+    margin: 5px 0px;
+    border: 1px ridge #777c84;
+    border-radius: 2px;
+}
+/*----------------- banner--------------------- */
+.banner-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 70vh;
+}
+.business-left-side{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 5rem;
+    height: 30rem;
+}
+.business-right-side{
+    flex: 1;
+}
+.business-heading-text{
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:'Open Sans';;
+    line-height: 1.2;
+}
+.business-description{
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 1.5;
+    margin-bottom: 50px;
+} 
+/* -----------------check------------------------ */
+.input-box {
+    background-color: #fff;
+    width: fit-content;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 .5rem;
+}
+.input-box p i {
+    color: #000;
+}
+.input-box input {
+    border: none;
+    margin: 0 11px;
+}
+.input-box button {
+    background-color: #8BB7A2;
+    color: #ffffff;
+    padding: 10px 31px;
+    border: none;
+}
+/* :target */
+.target-banner{
+    justify-content: center;
+    margin-top: 9rem;
+    gap: 3rem; 
+}
+.target-heading{
+    text-align: center;
+    color: #1c2c4e;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.target-count{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 48px;
+}
+.card{   
+    padding-left: 30px;
+}
+.card-head {
+    font-size: 1.3rem;
+    margin-bottom: 11px;
+    color: #1c2c4e;
+}
+.card-body{
+    font-size: 14px;
+    color: #9a9a9a;
+}
+.target-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    height: 52rem;
+    
+}
+
+/*---------------- banner ----------------------------*/
+.offers{
+    margin-left: 11rem;
+}
+.title{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 500;
+}
+.offer-container{
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    height: 70vh;
+}
+.left-side{
+    flex: 1;
+}
+.effective-heading-text{
+    font-size: 45px;
+    color: #1a1a1a;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:'Open Sans';;
+    line-height: 1.2;
+}
+.effective-description{
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.effective-button, .marketing-button, .people-button, .button{
+    padding: 13px 13px;
+    background: #8bb8a2;
+    color:#fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    border: transparent;
+}
+.right-side{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 5rem;
+}
+/* ----------------offer-container-2---------------- */
+.offer-container-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 70vh;
+    margin-top: 60px;
+}
+.marketing-right-side{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 5rem;
+    height: 25rem;
+}
+.marketing-left-side{
+    flex: 1;
+}
+.marketing-heading-text{
+    font-size: 45px;
+    color: #1b1d21;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:'Open Sans';;
+    line-height: 1.2;
+}
+.marketing-description{
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 1.5;
+    margin-bottom: 50px;
+} 
+
+/* ----------------offer-container-3---------------- */
+.offer-container-3{
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    height: 70vh;
+    margin-top: 60px;
+    gap: 3rem;
+}
+.people-left-side{
+    flex: 1;
+}
+.people-heading-text{
+    font-size: 45px;
+    color: #1b1d21;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:'Open Sans';;
+    line-height: 1.2;
+}
+.people-description{
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.people-right-side{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 5rem;
+    height: 25rem;
+} 
+
+.team-top {
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-around;
+}
+.team h1 {
+    font-size: 38px;
+    width: 300px;
+    font-family: "Raleway";
+}
+.team-top p {
+    width: 400px;
+    font-family: poppins;
+    font-size: 17px;
+}
+.team-bottom {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.member img {
+    width: 254px;
+}
+.team-bottom h1 {
+    font-size: 30px;
+    width: 254px;
+    margin: 20px 0;
+}
+.team-bottom p {
+    width: 254px;
+    color: #7d7e81;
+}
+.button{
+    margin-left: 48rem;
+    margin-bottom: 3rem;
+}
+/* -------------------footer------------------------- */
+footer {
+    background-color: #11181c;
+    padding: 44px 91px;
+}
+.footer-top {
+    display: flex;
+    padding-bottom: 26px;
+    justify-content: space-between;
+    border-bottom: 2px solid #3b4146;
+}
+.socials {
+    display: flex;
+    gap: 14px;
+}
+.socials p {
+    background-color: #282F34;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 50%;
+    color: yellow;
+}
+.socials p i {
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer-bottom {
+    display: flex;
+    padding-top: 31px;
+    justify-content: space-between;
+}
+.list-items {
+    list-style: none;
+    color: #ffffff;
+}
+.list-items li:first-child {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+.list-items li {
+    padding: 7px 0;
+    font-size: 14px;
+    color: #989c9f;
+    font-family: "Poppins";
+}
+/* media query  */
+@media only screen and (max-width: 768px) {
+.top{
+    height: 100vh;
+}
+.navbar{
+    justify-content: space-between;
+}
+.list {
+    display: none;
+}
+.banner-container-2 {
+    flex-direction:column;
+    justify-content: center;
+    margin: 3% 5%;
+}
+.business-left-side img{
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+}
+.business-heading-text{
+    margin-top: -30px;
+    font-size: 35px;
+    margin-bottom: 4%;
+}
+.business-description{
+    font-size: 14px;
+}
+.business-right-side{
+    padding: 3%;
+    text-align: center;
+}
+.input-box{
+    margin-left: 6%;
+}
+.target-banner{
+    margin-top: 30px;
+}
+.target-heading{
+    font-size: 30px;
+}
+.target-image{
+    height: 350px;
+    width: 100%;
+    margin: 20px 0;
+}
+.offers{
+    margin-left: auto;
+}
+.offer-container, .offer-container-3, .team{
+    margin-top: 5rem;
+    flex-direction: column-reverse;
+    margin-left: 3rem;
+}
+.right-side{
+    height: 50%;
+    width: 100%;
+}
+.left-side{
+    margin-left: 10px;
+}
+.effective-heading-text, .marketing-heading-text, .people-heading-text{
+    font-size: 30px;
+}
+.effective-description, .marketing-description, .people-description{
+    font-size: 14px;
+}
+.marketing-left-side{
+    margin-top: 2rem;
+}
+.marketing-right-side{
+    height: 50%;
+    width: 100%;
+}
+.member{
+    margin-bottom: 3rem;
+}
+.people-right-side{
+    height: 50%;
+    width: 100%;
+    margin-top: 8rem;
+}
+.team-top{
+    margin-top: 10rem;
+    flex-direction: column;
+}
+.team-bottom{
+    flex-direction: column;
+}
+.button{
+    margin: 10px 3px;
+}
+.footer-top{
+    flex-direction: column;
+    padding: 2% 3%;
+}
+.socials{
+    padding-top: 10px;
+}
+.footer-bottom{
+    flex-direction: column-reverse;
+}
+}
